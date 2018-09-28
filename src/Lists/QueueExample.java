@@ -22,12 +22,11 @@ public class QueueExample {
             queue.add(i);
             System.out.print(i + " ");
         }
-        
+
         System.out.println("\n\nRemoves each memeber one by one");
-        
-        //outputs queue
-        System.out.println();
-        for (int i = 0; i < 25; i ++) {
+
+        //outputs changed queue
+        for (int i = 0; i < 25; i++) {
             for (Object item : queue) {
                 System.out.print(item + " ");
             }
