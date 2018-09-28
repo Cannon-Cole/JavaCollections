@@ -18,10 +18,10 @@ public class Collections {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("QUEUE====================================================================================");
+        System.out.println("QUEUE========================================================");
         QueueExample queue = new QueueExample();
         System.out.println();
-        System.out.println("DEQUE====================================================================================");
+        System.out.println("DEQUE========================================================");
         DequeExample deque = new DequeExample();
 
     }
