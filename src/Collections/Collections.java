@@ -20,22 +20,22 @@ public class Collections {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("QUEUE========================================================");
+        System.out.println("QUEUE================================================================================================");
         QueueExample queue = new QueueExample();
         
         System.out.println();
         
-        System.out.println("HASHMAP========================================================");
+        System.out.println("HASHMAP================================================================================================");
         HashMapExample hashMap = new HashMapExample();
         
         System.out.println();
         
-        System.out.println("HASHSET========================================================");
+        System.out.println("HASHSET================================================================================================");
         HashSetExample hashSet = new HashSetExample();
         
         System.out.println();
         
-        System.out.println("BINARYTREE========================================================");
+        System.out.println("BINARYTREE================================================================================================");
         BinaryTreeExample binaryTree = new BinaryTreeExample();
         binaryTree.showFluency();
      
