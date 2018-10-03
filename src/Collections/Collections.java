@@ -5,8 +5,8 @@
  */
 package Collections;
 
-import Lists.DequeExample;
 import Lists.QueueExample;
+import Map.HashMapExample;
 
 /**
  *
@@ -20,9 +20,12 @@ public class Collections {
     public static void main(String[] args) {
         System.out.println("QUEUE========================================================");
         QueueExample queue = new QueueExample();
+        
         System.out.println();
-        System.out.println("DEQUE========================================================");
-        DequeExample deque = new DequeExample();
+        
+        System.out.println("HASHMAP========================================================");
+        HashMapExample hashMap = new HashMapExample();
+     
 
     }
 
