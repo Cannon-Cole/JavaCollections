@@ -18,9 +18,9 @@ public class QueueExample {
         Queue<Integer> queue = new LinkedList<>();
         //fills queue with 100 to 0   
         System.out.println("Loads the queue with the following:");
-        for (int i = 25; i > 0; i--) {
-            queue.add(i);
-            System.out.print(i + " ");
+        for (int i = 0; i < 25; i++) {
+            queue.add(i + 1);
+            System.out.print((i + 1) + " ");
         }
 
         System.out.println("\n\nRemoves each memeber one by one");

@@ -7,6 +7,7 @@ package Collections;
 
 import Lists.QueueExample;
 import Map.HashMapExample;
+import Set.HashSetExample;
 
 /**
  *
@@ -25,6 +26,11 @@ public class Collections {
         
         System.out.println("HASHMAP========================================================");
         HashMapExample hashMap = new HashMapExample();
+        
+        System.out.println();
+        
+        System.out.println("HASHSET========================================================");
+        HashSetExample hashSet = new HashSetExample();
      
 
     }
