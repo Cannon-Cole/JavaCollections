@@ -8,6 +8,7 @@ package Collections;
 import Lists.QueueExample;
 import Map.HashMapExample;
 import Set.HashSetExample;
+import Tree.BinaryTreeExample;
 
 /**
  *
@@ -31,6 +32,12 @@ public class Collections {
         
         System.out.println("HASHSET========================================================");
         HashSetExample hashSet = new HashSetExample();
+        
+        System.out.println();
+        
+        System.out.println("BINARYTREE========================================================");
+        BinaryTreeExample binaryTree = new BinaryTreeExample();
+        binaryTree.showFluency();
      
 
     }

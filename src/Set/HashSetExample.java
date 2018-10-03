@@ -44,9 +44,11 @@ public class HashSetExample {
         System.out.println("Checks if it has Adam");
         System.out.println(hashSet.contains("Adam"));
         
+        System.out.println();
+
         System.out.println("HashSet has been cleared");
         hashSet.clear();
-         System.out.println("It now contains the following " + hashSet);
+        System.out.println("It now contains the following " + hashSet);
     }
 
 }
