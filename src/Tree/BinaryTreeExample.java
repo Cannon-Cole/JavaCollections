@@ -51,7 +51,7 @@ public class BinaryTreeExample {
             return;
         }
         printBinaryTree(root.left);
-        System.err.print(root.value + " ");
+        System.out.print(root.value + " ");
         printBinaryTree(root.right);
     }
 
